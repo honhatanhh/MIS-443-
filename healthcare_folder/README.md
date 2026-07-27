@@ -2,7 +2,7 @@
 
 **Course:** MIS 443 - Business Data Management
 **Institution:** Eastern International University (EIU)
-**Student:** Đặng Huỳnh Quỳnh Như - 2032300287
+**Student:** Ho Nhat Anh - 2232300196
 **Major:** Business Analytics
 
 ## Project Description
@@ -24,9 +24,16 @@ MIS443_2032300287_Healthcare/
 ├── codes/
 │   ├── import_data.sql
 │   └── exercise.sql
+├── health_data/
+│   └── appointments
+│   └── department 
+│   └── diagnoses
+│   └── doctor
+│   └── patients
 │
 ├── report/
 │   └── ERD.pgerd
+│   └── report.pdf
 │
 └── README.md
 ```
