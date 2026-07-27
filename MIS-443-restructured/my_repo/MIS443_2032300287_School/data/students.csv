@@ -1,0 +1,8 @@
+﻿student_id,first_name,last_name,email,enrollment_date,graduation_year,major
+1001,Alex,Thompson,alex.thompson@university.edu,9/1/2022,2026,Computer Science
+1002,Maria,Rodriguez,maria.rodriguez@university.edu,9/1/2022,2026,Mathematics
+1003,James,Wilson,james.wilson@university.edu,9/1/2021,2025,Physics
+1004,Emily,Chen,emily.chen@university.edu,9/1/2023,2027,Computer Science
+1005,Robert,Johnson,robert.johnson@university.edu,9/1/2022,2026,Chemistry
+1006,Sarah,Davis,sarah.davis@university.edu,9/1/2021,2025,Biology
+1007,David,Kim,david.kim@university.edu,9/1/2024,2028,
