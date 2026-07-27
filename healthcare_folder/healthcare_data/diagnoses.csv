@@ -1,0 +1,7 @@
+﻿diagnosis_id,patient_id,doctor_id,condition_name,diagnosis_date
+1,1001,101,Hypertension,1/15/2025
+2,1002,103,Seasonal Allergy,1/16/2025
+3,1003,104,Appendicitis,1/17/2025
+4,1001,101,High Cholesterol,6/1/2024
+5,1004,105,Type 2 Diabetes,9/20/2024
+6,1005,102,Minor Fracture,1/19/2025
