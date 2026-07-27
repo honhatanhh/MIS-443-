@@ -1,67 +1,75 @@
-# MIS443 - Healthcare Database Project
+<div align="center">
 
-**Course:** MIS 443 - Business Data Management
-**Institution:** Eastern International University (EIU)
-**Student:** Ho Nhat Anh - 2232300196
-**Major:** Business Analytics
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=MIS%20443%20-%20Business%20Data%20Management&fontSize=34&fontColor=ffffff&animation=twinkling&fontAlignY=42" width="100%"/>
 
-## Project Description
+**Đặng Huỳnh Quỳnh Như** · Business Analytics Student · Eastern International University
+IRN 2032300287 · Quarter 4, 2025–2026
 
-This project implements a relational database for a healthcare / clinic environment using **PostgreSQL** and **pgAdmin 4**. The **Healthcare Database** (schema `h_care`) centralizes core operational entities — **Departments, Patients, Doctors, Appointments, and Diagnoses** — supporting use cases such as physician rostering, appointment scheduling, diagnosis tracking, and staffing/capacity analysis.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F2027?style=flat-square&logo=postgresql&logoColor=white)
+![pgAdmin4](https://img.shields.io/badge/pgAdmin4-203A43?style=flat-square&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-2C5364?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-## Tools Used
+</div>
 
-- PostgreSQL (database engine)
-- pgAdmin 4 (database creation, ERD design, and query execution)
-- pgAdmin ERD Tool (schema diagram)
-- GitHub (project publication)
+<br/>
 
-## Folder Structure
+## What this repository is
 
-```
-MIS443_2032300287_Healthcare/
-│
-├── codes/
-│   ├── import_data.sql
-│   └── exercise.sql
-├── health_data/
-│   └── appointments
-│   └── department 
-│   └── diagnoses
-│   └── doctor
-│   └── patients
-│
-├── report/
-│   └── ERD.pgerd
-│   └── report.pdf
-│
-└── README.md
-```
+This is my working record for **MIS 443 – Business Data Management**, a course built around one core skill for a Business Analyst: turning a business question into a SQL query, and turning the query result into something a manager can act on.
 
-## Database Architecture & Schema Design
+Each folder here is a separate database project — a different business context, built from scratch in PostgreSQL: schema design, data loading, and a set of practice queries that get progressively harder.
 
-The schema `h_care` contains 5 tables:
+<br/>
 
-1. **`h_care.departments`**: Department names and physical locations.
-2. **`h_care.patients`**: Patient profiles — name, date of birth, gender, and phone contact.
-3. **`h_care.doctors`**: Physician records, including specialty, hire date, and assigned department.
-4. **`h_care.appointments`**: Appointment records linking a patient and a doctor, with date and status (e.g. Scheduled, Completed).
-5. **`h_care.diagnoses`**: Diagnosis records linking a patient and a doctor, with condition name and diagnosis date.
+## How I've progressed through the course
 
-### Relationships
+<table>
+<tr>
+<th align="left" width="20%">Stage</th>
+<th align="left" width="40%">Where I started</th>
+<th align="left" width="40%">Where I am now</th>
+</tr>
+<tr>
+<td><b>Schema design</b></td>
+<td>Could describe what a table should contain, but needed guidance on keys and relationships</td>
+<td>Design schemas independently — primary/foreign keys, 1:N and N:M relationships, constraints that actually hold up when data is loaded</td>
+</tr>
+<tr>
+<td><b>Querying</b></td>
+<td>Comfortable with basic SELECT / WHERE filters</td>
+<td>Write multi-table JOINs, GROUP BY / HAVING aggregations, and correlated subqueries without looking up syntax every time</td>
+</tr>
+<tr>
+<td><b>Analytical SQL</b></td>
+<td>Not yet exposed to window functions</td>
+<td>Use RANK() OVER (PARTITION BY ...) to answer "who's #1 within each group" — e.g. busiest doctor per department</td>
+</tr>
+<tr>
+<td><b>Framing the question</b></td>
+<td>Needed the query already spelled out</td>
+<td>Translate a vague stakeholder ask ("which patients haven't been seen recently?") into the right JOIN/filter logic myself</td>
+</tr>
+</table>
 
-- **Departments ➔ Doctors (1:N):** One department can have multiple doctors.
-- **Doctors ➔ Appointments (1:N)** and **Patients ➔ Appointments (1:N):** Each appointment links one doctor to one patient.
-- **Doctors ➔ Diagnoses (1:N)** and **Patients ➔ Diagnoses (1:N):** Each diagnosis links one doctor to one patient.
+<br/>
 
-The full entity-relationship diagram is in `report/ERD.pgerd` — a pgAdmin ERD Tool project file. Open it in pgAdmin 4 via **Tools → ERD Tool → Open** to view/edit the diagram (it isn't a plain image file).
+## Skills covered project by project
 
-## How to Run
+| | Foundations | Querying | Aggregation & Joins | Window Functions | Business Framing |
+|---|:---:|:---:|:---:|:---:|:---:|
+| **School** | ✅ | ✅ | ✅ | – | ✅ |
+| **Healthcare** | ✅ | ✅ | ✅ | ✅ | ✅ |
 
-1. Open pgAdmin 4 and connect to your local PostgreSQL server.
-2. Run `codes/import_data.sql` to create the `h_care` schema, all 5 tables with their relationships, and preview the data.
-3. Run `codes/exercise.sql` to execute the SQL practice questions (30 business-driven queries covering filtering, aggregation, joins, subqueries, and window functions) and review the results.
 
-## GitHub Repository
+<br/>
 
-https://github.com/NhuqDangg/MIS-443---Business-Data-Management/tree/main/MIS443_2032300287_Healthcare
+## Why this matters for a future BA
+
+A Business Analyst who can query the database directly — instead of waiting for someone else to pull a report — gets to the answer first and asks the next question sooner. That's the skill this repository tracks: not just "can I write a query that runs," but "can I turn a business question into one, and turn the result back into a decision."
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer"/>
+</div>
