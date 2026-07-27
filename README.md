@@ -2,8 +2,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=MIS%20443%20-%20Business%20Data%20Management&fontSize=34&fontColor=ffffff&animation=twinkling&fontAlignY=42" width="100%"/>
 
-**Đặng Huỳnh Quỳnh Như** · Business Analytics Student · Eastern International University
-IRN 2032300287 · Quarter 4, 2025–2026
+**Ho Nhat Anh** · Business Analytics Student · Eastern International University
+IRN 2232300196 · Quarter 4, 2025–2026
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F2027?style=flat-square&logo=postgresql&logoColor=white)
 ![pgAdmin4](https://img.shields.io/badge/pgAdmin4-203A43?style=flat-square&logo=postgresql&logoColor=white)
