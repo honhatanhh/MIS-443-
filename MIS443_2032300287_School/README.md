@@ -2,7 +2,7 @@
 
 **Course:** MIS 443 - Business Data Management
 **Institution:** Eastern International University (EIU)
-**Student:** Đặng Huỳnh Quỳnh Như - 2032300287
+**Student:** Ho Nhat Anh - 2232300916
 **Major:** Business Analytics
 **Academic Term:** Quarter 4/2025-2026
 
@@ -20,7 +20,7 @@ This project implements an end-to-end relational database system for a universit
 ## Folder Structure
 
 ```
-MIS443_2032300287_School/
+MIS443_2232300196_School/
 │
 ├── codes/
 │   ├── import_data.sql
@@ -62,4 +62,4 @@ MIS443_2032300287_School/
 
 ## GitHub Repository
 
-https://github.com/NhuqDangg/MIS-443---Business-Data-Management/tree/main/MIS443_2032300287_School
+https://github.com/honhatanhh/MIS-443-/tree/main/MIS443_2032300287_School
