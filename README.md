@@ -2,7 +2,7 @@
 
 **Course:** MIS 443 - Business Data Management
 **Institution:** Eastern International University (EIU)
-**Student:** Hồ Nhật Anh  - 2232300196
+**Student:** Ho Nhat Anh - 2232300196
 **Major:** Business Analytics
 
 ## Project Description
@@ -17,7 +17,8 @@ This project implements a relational database for a healthcare / clinic environm
 - GitHub (project publication)
 
 ## Folder Structure
-'''
+
+```
 MIS443_2032300287_Healthcare/
 │
 ├── codes/
@@ -35,7 +36,8 @@ MIS443_2032300287_Healthcare/
 │   └── report.pdf
 │
 └── README.md
-'''
+```
+
 ## Database Architecture & Schema Design
 
 The schema `h_care` contains 5 tables:
