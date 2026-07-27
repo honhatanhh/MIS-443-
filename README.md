@@ -2,7 +2,7 @@
 
 **Course:** MIS 443 - Business Data Management
 **Institution:** Eastern International University (EIU)
-**Student:** Đặng Huỳnh Quỳnh Như - 2032300287
+**Student:** Hồ Nhật Anh  - 2232300196
 **Major:** Business Analytics
 
 ## Project Description
@@ -18,18 +18,23 @@ This project implements a relational database for a healthcare / clinic environm
 
 ## Folder Structure
 
-```
 MIS443_2032300287_Healthcare/
 │
 ├── codes/
 │   ├── import_data.sql
 │   └── exercise.sql
+├── health_data/
+│   └── appointments
+│   └── department 
+│   └── diagnoses
+│   └── doctor
+│   └── patients
 │
 ├── report/
 │   └── ERD.pgerd
+│   └── report.pdf
 │
 └── README.md
-```
 
 ## Database Architecture & Schema Design
 
