@@ -64,4 +64,4 @@ The full entity-relationship diagram is in `report/ERD.pgerd` — a pgAdmin ERD 
 
 ## GitHub Repository
 
-https://github.com/NhuqDangg/MIS-443---Business-Data-Management/tree/main/MIS443_2032300287_Healthcare
+https://github.com/honhatanhh/MIS-443-/tree/main/healthcare_folder
