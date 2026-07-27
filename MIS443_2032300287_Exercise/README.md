@@ -2,7 +2,7 @@
 
 **Course:** MIS 443 - Business Data Management
 **Institution:** Eastern International University (EIU)
-**Student:** Đặng Huỳnh Quỳnh Như - 2032300287
+**Student:** Ho Nhat Anh - 2232300196
 **Major:** Business Analytics
 
 ## Status
