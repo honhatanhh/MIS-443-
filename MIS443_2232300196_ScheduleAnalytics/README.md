@@ -1,6 +1,6 @@
 # Schedule Analytics — Q1 Timetable Data Warehouse & Workload Analysis
 
-Đặng Huỳnh Quỳnh Như · Business Analytics Student · Eastern International University IRN 2032300287 · Quarter 1, 2025–2026
+Ho Nhat Anh · Business Analytics Student · Eastern International University IRN 2232300196 · Quarter 1, 2025–2026
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-336791?logo=postgresql&logoColor=white) ![pgAdmin](https://img.shields.io/badge/pgAdmin-4-25597e) ![SQL](https://img.shields.io/badge/SQL-star--schema-lightgrey) ![Git](https://img.shields.io/badge/Git-tracked-orange?logo=git&logoColor=white)
 
@@ -41,10 +41,24 @@ ERD: see `erd/ERD.png` (exported from pgAdmin's ERD Tool — `.pgerd` doesn't re
 
 ![Insight 1](screenshots/insight-1-workload-illusion.png)
 ![Insight 2](screenshots/insight-2-burnout-heatmap.png)
-![Insight 3](screenshots/insight-3-room-utilization.png)
-![Insight 4](screenshots/insight-4-double-booking.png)
+ <img width="1045" height="592" alt="image" src="https://github.com/user-attachments/assets/09b96071-6a57-450b-8c6c-aec6d5475dfb" />
+<img width="1044" height="578" alt="image" src="https://github.com/user-attachments/assets/cd1af717-594a-4ea4-a9e1-35a297845a4b" />
 
 **Takeaway for the registrar:** cap weekly teaching hours with early warnings before peak weeks, and run the double-booking / hour-rule checks as SQL views *before* a schedule is published, not after.
+## Live dashboard
+
+The same dataset also powers a live web dashboard built with Google Apps Script, reading directly from the source Google Sheet — so the numbers always match the tables in this repo.
+
+👉 **[Open the dashboard](https://script.google.com/a/macros/eiu.edu.vn/s/AKfycbyCPxIpV8AMqgyq2bVJrYoSSUIdWHfp2jmmML3lq2VhjqUeiOkAq0hPW13ZLV19YMMGaA/exec)**
+
+| Tab | What it shows |
+|---|---|
+| 1. Tổng quan | Headline counts (instructors/courses/rooms/hours), teaching-hour split by building, top 8 instructors by hours |
+| 2. Đánh giá Giáo viên (Workload) | Scatter matrix of courses taught × total hours, auto-classified into 4 workload types, with a searchable per-instructor table |
+| 3. Sử dụng Phòng & Tòa nhà | Overloaded vs. underused rooms, and a building-level load summary with a rebalancing suggestion |
+
+
+> ⚠️ **Note:** this link is a Google Apps Script Web App deployed under the `eiu.edu.vn` domain. Before sharing it publicly, open it in an incognito window or ask someone outside the university to test it — if the deployment's *"Who has access"* setting is scoped to the EIU organization rather than *"Anyone"*, external visitors will hit a permission error instead of the dashboard.
 
 ## How to run this project
 
