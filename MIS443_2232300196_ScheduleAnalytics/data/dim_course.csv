@@ -1,0 +1,115 @@
+course_code,course_name,credit_hours
+ACTG 221,Accounting Mechanics,1
+ACTG 240,Fundamentals of Financial Accounting,4
+ACTG 243,Decision Making with Accounting Information,4
+ACTG 360,Cost Accounting,4
+ACTG 381,Financial Accounting and Reporting 1,4
+ACTG 382,Financial Accounting and Reporting 2,4
+ACTG 498,Integrated Accounting Issues,4
+BUS 101,Fundamentals of Business Administration,4
+BUS 214,Business Communication,4
+BUS 301,Professional Career Development,3
+BUS 303,Business Research Methods,4
+BUS 314,Organizational Behavior,4
+BUS 328,Business Finance,4
+BUS 332,Marketing Management,4
+BUS 345,E-commerce,4
+BUS 357,Entrepreneurship,4
+BUS 359,Operations and Supply Chain Management,4
+BUS 378,Business Environment,4
+BUS 381,Business Internship 1,4
+BUS 450,Final Year Project,6
+BUS 496,Capstone: Business Strategy,6
+COMS 101,Communication Skill,4
+DSCI 261,Nhập môn Khoa học dữ liệu bằng Python,4
+DSCI 363,Machine Learning I,4
+DSCI 462,GIS and Mapping,4
+EBS 405,Quản trị doanh nghiệp,4
+ECO 204,Microeconomics,4
+ECO 205,Macroeconomics,4
+ECO 352,International Economics,4
+ECON 121,Introductory Microeconomics,4
+ECON 221,Microeconomic Theory I,4
+ECON 222,Microeconomic Theory II,4
+ECON 224,Innovation Economics,4
+ECON 225,Public Economics,4
+ECON 231,Introductory Macroeconomics,4
+ECON 233,Circular Economy,4
+ECON 241,Econometrics I,4
+ECON 331,Macroeconomic Theory I,4
+ECON 332,Macroeconomic Theory II,4
+ECON 333,Health Economics,4
+ECON 334,"The Economics of Money, Banking and Financial Markets",4
+ECON 335,Energy Economics,4
+ECON 342,Econometrics II,4
+ECON 343,Econometrics III,4
+FIN 239,Personal Finance,4
+FIN 443,Derivatives Securities,4
+FIN 449,Valuation,4
+FIN 465,Cases in Finance,4
+HMGT 213,Essentials of Hospitality Management,4
+HMGT 358,Lodging Management,4
+HMGT 361,Destination and Event Management,4
+HMGT 401,Food and Beverage Management,4
+HRM 351,Human Resource Management,4
+HRM 447,Human Resource Information Systems,4
+HRM 471,Staffing and Employee Selection,4
+HRM 491,Human Resource Development,4
+HRM 493,Human Resource Strategy,4
+IEPS 100,Entrepreneurial Thinking,4
+IEPS 360,Intellectual Property and Commercialization,4
+IEPS 361,Planning and Managing New Venture,4
+IEPS 371,Entrepreneurial Product Development,4
+INFO 101,"Communication, Information and Society",4
+INFO 105,Computer Fundamentals,3
+INFO 106,Focused Inquiry: Digital Literacy,4
+IREL 101,Foundations of International Relations,4
+LNGS-J101,Japanese 1,4
+LNGS-J102,Japanese 2,4
+LNGS-K101,Korean 1,4
+LNGS-K103,Korean 3,4
+MATH 105,Toán kinh tế,4
+MGMT 216,Fundamentals of Management,4
+MGMT 291,Seminar in Current Affairs,4
+MGMT 440,Leadership,4
+MIS 301,Programming in Python for Business,4
+MIS 302,R Programing Analytics,4
+MIS 311,Introduction to Business Analytics,4
+MIS 315,Principles of Data Analytics,4
+MIS 354,"Decision Behaviour, Analysis and Support",4
+MIS 392,Topics in Analytics,4
+MIS 446,Data Visualization,4
+MIS 451,Machine Learning for Business,4
+MIS 454,Marketing Analytics,4
+MKTG 336,Professional Selling,4
+MKTG 420,Branding,4
+MKTG 452,Business-to-Business Marketing,4
+MKTG 460,Marketing Research,4
+MKTG 461,E-marketing,4
+MKTG 462,New Product Development,4
+MKTG 463,Integrated Marketing Communication,4
+MKTG 466,Global Marketing,4
+MKTG 467,Marketing Strategy and Management,4
+MTH 171,Mathematics Applications for Business,4
+MUSI 110,Music Theory,4
+MUSI 203,Music 1,4
+MUSI 204,Music 2,4
+MUSI 205,Music 3,4
+PHL 255,Critical and Creative Thinking,4
+SCLM 429,Transportation and Logistics Management,4
+SCLM 439,Purchasing and Supply Chain Management,4
+SCLM 449,Process Control and Improvement,4
+SCLM 450,Project Management,4
+SCLM 454,Negotiations,4
+SCLM 459,Production Planning and Control,4
+SCLM 479,Integrated Supply and Logistics Management,4
+SPCH 201,Public Speaking,4
+STA 228,Statistics,4
+STAT 101,Xác suất và thống kê I,4
+STAT 202,Xác suất và thống kê II,4
+UNIV 111,Focused Inquiry: Sustainability,4
+UNIV 112,Focused Inquiry: Globalization,4
+UNIV 226,Focused Inquiry: Smart Cities and Communities,4
+WRT 122,English Composition,4
+WRT 187,Academic Reading and Writing,4
+WRT 209,Seminar in Writing,4
